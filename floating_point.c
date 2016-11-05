@@ -48,6 +48,8 @@ int main(void)
   printf("Mantissa: %d\n", FLOATPT(fp).mantissa);
   printf("Exponent: %d\n", FLOATPT(fp).exponent);
   printf("Sign: %d\n", FLOATPT(fp).sign);
+  
+  /* You can manipulate the manitssa, exponent and sign to make your floating point number */
 
   return 0;
 }
