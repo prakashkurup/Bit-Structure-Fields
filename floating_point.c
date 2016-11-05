@@ -29,9 +29,9 @@ typedef union {
   float fValue; // 4 bytes
 
   struct {
-    uint32_t mantissa: 23;
-    uint32_t exponent: 8;
-    uint32_t sign: 1;
+    uint32_t mantissa: 23; // Bit:0 to Bit:22
+    uint32_t exponent: 8;  // Bit:23 to Bit:30
+    uint32_t sign: 1;      // Bit:31
   };
 
 } FloatPt;
